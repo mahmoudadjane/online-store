@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Liste des clients</title>
+</head>
+<body>
+  <h1>Liste des clients</h1>
+  <ul>
+    <% clients.forEach(client => { %>
+      <li><%= client.name %> - <%= client.email %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+  <title>Categories</title>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navigation -->
+  <nav class="bg-gray-800 p-4">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="text-white text-lg font-semibold">Mon Site de Commerce</div>
+        <ul class="flex space-x-4">
+          <li><a href="/accueil" class="text-white hover:text-gray-200">Accueil</a></li>
+          <li><a href="/produits" class="text-white hover:text-gray-200">Produits</a></li>
+          <li><a href="/categories" class="text-white hover:text-gray-200">categories</a></li>
+          <li><a href="/contact" class="text-white hover:text-gray-200">Contact</a></li>
+        </ul>
+        <form action="/recherche" method="get" class="flex justify-center">
+          <input type="text" name="q" placeholder="Rechercher..." class="px-4 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring focus:border-blue-300">
+          <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-r-md">Rechercher</button>
+      </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+</body>
+</html>
